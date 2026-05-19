@@ -1,27 +1,19 @@
 "use client";
 
-import { FormEvent, useEffect, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { FormEvent, useState } from "react";
+import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { signInAsGuest, signInWithEmail, signUpWithEmail } from "@/lib/auth";
 
 export default function AuthPage() {
-  const params = useSearchParams();
-  const requestedMode = params.get("mode");
   const [mode, setMode] = useState<"signin" | "signup">("signin");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const router = useRouter();
-
-  useEffect(() => {
-    if (requestedMode === "signup" || requestedMode === "signin") {
-      setMode(requestedMode);
-    }
-  }, [requestedMode]);
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
@@ -30,7 +22,7 @@ export default function AuthPage() {
     const result = mode === "signin" ? await signInWithEmail(email, password) : await signUpWithEmail(email, password);
     setLoading(false);
     if (result.error) return setError(result.error.message);
-    router.push(params.get("next") || "/dashboard");
+    router.push("/dashboard");
   };
 
   const guest = async () => {
@@ -39,7 +31,7 @@ export default function AuthPage() {
     const result = await signInAsGuest();
     setLoading(false);
     if (result.error) return setError(result.error.message);
-    router.push(params.get("next") || "/dashboard");
+    router.push("/dashboard");
   };
 
   return (
@@ -57,7 +49,7 @@ export default function AuthPage() {
           </form>
 
           <Button onClick={guest} variant="ghost" className="mt-3 w-full" disabled={loading}>Continue as Guest</Button>
-          <button type="button" className="mt-4 w-full text-sm text-white/70 hover:text-white" onClick={() => setMode(mode === "signin" ? "signup" : "signin")}>
+          <button className="mt-4 w-full text-sm text-white/70 hover:text-white" onClick={() => setMode(mode === "signin" ? "signup" : "signin")}>
             {mode === "signin" ? "Need an account? Sign up" : "Already have an account? Sign in"}
           </button>
         </Card>
