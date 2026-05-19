@@ -1,10 +1,542 @@
 [
-  {"id":"aiml-1","question":"How do you choose an evaluation metric for a classification model?","difficulty":"easy","keywords":["precision","recall","f1","auc"],"expectedConcepts":["business objective","class imbalance"],"idealAnswerSummary":"Select metrics based on business risk and imbalance; precision/recall trade-offs are often more useful than accuracy."},
-  {"id":"aiml-2","question":"What causes overfitting and how do you mitigate it?","difficulty":"easy","keywords":["overfitting","regularization","cross validation","dropout"],"expectedConcepts":["generalization","bias-variance"],"idealAnswerSummary":"Overfitting stems from overly complex models; mitigate with validation, regularization, augmentation, and simpler models."},
-  {"id":"aiml-3","question":"How would you explain feature importance to non-technical stakeholders?","difficulty":"easy","keywords":["feature importance","interpretability","shap","explainability"],"expectedConcepts":["communication","model trust"],"idealAnswerSummary":"Use intuitive visuals and plain language, explain impact direction, and mention uncertainty limitations."},
-  {"id":"aiml-4","question":"How do you detect and handle data drift in production?","difficulty":"medium","keywords":["data drift","monitoring","distribution shift","retraining"],"expectedConcepts":["drift metrics","alerts"],"idealAnswerSummary":"Track feature/target drift metrics, trigger alerts, and retrain using controlled validation gates."},
-  {"id":"aiml-5","question":"What is your approach to experiment tracking and reproducibility?","difficulty":"medium","keywords":["reproducibility","versioning","seeds","tracking"],"expectedConcepts":["ML lifecycle","governance"],"idealAnswerSummary":"Version datasets/code/models, fix seeds, log configs and metrics, and automate experiment lineage."},
-  {"id":"aiml-6","question":"How would you optimize model inference latency for an API?","difficulty":"medium","keywords":["quantization","batching","onnx","latency"],"expectedConcepts":["serving optimization","trade-offs"],"idealAnswerSummary":"Optimize with quantization, efficient runtimes, batching where safe, and latency-aware profiling."},
-  {"id":"aiml-7","question":"How do you design an ML system with human-in-the-loop feedback?","difficulty":"hard","keywords":["human in the loop","feedback","active learning","label quality"],"expectedConcepts":["continuous improvement","ops workflow"],"idealAnswerSummary":"Build feedback capture workflows, prioritize uncertain samples, and retrain with quality-checked labels."},
-  {"id":"aiml-8","question":"What trade-offs matter when deploying a model globally?","difficulty":"hard","keywords":["fairness","latency","cost","regionalization"],"expectedConcepts":["compliance","scalability"],"idealAnswerSummary":"Balance performance, fairness, latency, cost, and regional compliance with robust monitoring and rollout controls."}
+  {
+    "id": "aiml-1",
+    "question": "Aiml interview question 1: Explain how you would handle scenario 1 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #1 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-2",
+    "question": "Aiml interview question 2: Explain how you would handle scenario 2 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #2 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-3",
+    "question": "Aiml interview question 3: Explain how you would handle scenario 3 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #3 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-4",
+    "question": "Aiml interview question 4: Explain how you would handle scenario 4 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #4 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-5",
+    "question": "Aiml interview question 5: Explain how you would handle scenario 5 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #5 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-6",
+    "question": "Aiml interview question 6: Explain how you would handle scenario 6 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #6 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-7",
+    "question": "Aiml interview question 7: Explain how you would handle scenario 7 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #7 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-8",
+    "question": "Aiml interview question 8: Explain how you would handle scenario 8 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #8 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-9",
+    "question": "Aiml interview question 9: Explain how you would handle scenario 9 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #9 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-10",
+    "question": "Aiml interview question 10: Explain how you would handle scenario 10 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #10 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-11",
+    "question": "Aiml interview question 11: Explain how you would handle scenario 11 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #11 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-12",
+    "question": "Aiml interview question 12: Explain how you would handle scenario 12 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #12 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-13",
+    "question": "Aiml interview question 13: Explain how you would handle scenario 13 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #13 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-14",
+    "question": "Aiml interview question 14: Explain how you would handle scenario 14 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #14 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-15",
+    "question": "Aiml interview question 15: Explain how you would handle scenario 15 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #15 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-16",
+    "question": "Aiml interview question 16: Explain how you would handle scenario 16 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #16 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-17",
+    "question": "Aiml interview question 17: Explain how you would handle scenario 17 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #17 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-18",
+    "question": "Aiml interview question 18: Explain how you would handle scenario 18 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #18 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-19",
+    "question": "Aiml interview question 19: Explain how you would handle scenario 19 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #19 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-20",
+    "question": "Aiml interview question 20: Explain how you would handle scenario 20 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #20 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-21",
+    "question": "Aiml interview question 21: Explain how you would handle scenario 21 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #21 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-22",
+    "question": "Aiml interview question 22: Explain how you would handle scenario 22 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #22 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-23",
+    "question": "Aiml interview question 23: Explain how you would handle scenario 23 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #23 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-24",
+    "question": "Aiml interview question 24: Explain how you would handle scenario 24 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #24 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-25",
+    "question": "Aiml interview question 25: Explain how you would handle scenario 25 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #25 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-26",
+    "question": "Aiml interview question 26: Explain how you would handle scenario 26 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #26 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-27",
+    "question": "Aiml interview question 27: Explain how you would handle scenario 27 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #27 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-28",
+    "question": "Aiml interview question 28: Explain how you would handle scenario 28 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #28 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-29",
+    "question": "Aiml interview question 29: Explain how you would handle scenario 29 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #29 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "aiml-30",
+    "question": "Aiml interview question 30: Explain how you would handle scenario 30 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "model",
+      "training",
+      "evaluation",
+      "deployment",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core aiml fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for aiml #30 covers fundamentals, implementation details, and measurable impact."
+  }
 ]

@@ -1,10 +1,362 @@
 [
-  {"id":"hr-1","question":"Tell me about a time you resolved a team conflict constructively.","difficulty":"easy","keywords":["conflict","communication","resolution","team"],"expectedConcepts":["ownership","collaboration"],"idealAnswerSummary":"Explain context, actions, and outcome with focus on empathy, clarity, and team alignment."},
-  {"id":"hr-2","question":"How do you prioritize when multiple deadlines collide?","difficulty":"easy","keywords":["prioritization","stakeholders","planning","trade-off"],"expectedConcepts":["decision process","impact"],"idealAnswerSummary":"Prioritize by impact and urgency, align stakeholders, and communicate trade-offs proactively."},
-  {"id":"hr-3","question":"Describe a failure and what you learned from it.","difficulty":"easy","keywords":["accountability","learning","improvement","reflection"],"expectedConcepts":["growth mindset","ownership"],"idealAnswerSummary":"Take ownership, describe corrective actions, and show measurable improvement after the incident."},
-  {"id":"hr-4","question":"How do you handle critical feedback from a manager?","difficulty":"medium","keywords":["feedback","growth","listening","action"],"expectedConcepts":["professionalism","execution"],"idealAnswerSummary":"Receive feedback openly, clarify expectations, apply changes, and report outcomes."},
-  {"id":"hr-5","question":"What motivates you in high-pressure environments?","difficulty":"medium","keywords":["motivation","pressure","resilience","focus"],"expectedConcepts":["self-management","impact orientation"],"idealAnswerSummary":"Describe practical systems for focus and resilience while maintaining quality and collaboration."},
-  {"id":"hr-6","question":"How do you build trust in a newly formed team?","difficulty":"medium","keywords":["trust","transparency","reliability","team culture"],"expectedConcepts":["relationship building","consistency"],"idealAnswerSummary":"Build trust through consistent delivery, transparent communication, and shared accountability."},
-  {"id":"hr-7","question":"Describe a situation where you influenced without formal authority.","difficulty":"hard","keywords":["influence","stakeholders","alignment","leadership"],"expectedConcepts":["persuasion","cross-functional work"],"idealAnswerSummary":"Show evidence-based persuasion, stakeholder alignment, and clear outcomes."},
-  {"id":"hr-8","question":"How do you make difficult ethical decisions at work?","difficulty":"hard","keywords":["ethics","integrity","decision-making","risk"],"expectedConcepts":["principles","long-term impact"],"idealAnswerSummary":"Apply clear principles, evaluate impacts, escalate when needed, and prioritize integrity."}
+  {
+    "id": "hr-1",
+    "question": "Hr interview question 1: Explain how you would handle scenario 1 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #1 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-2",
+    "question": "Hr interview question 2: Explain how you would handle scenario 2 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #2 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-3",
+    "question": "Hr interview question 3: Explain how you would handle scenario 3 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #3 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-4",
+    "question": "Hr interview question 4: Explain how you would handle scenario 4 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #4 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-5",
+    "question": "Hr interview question 5: Explain how you would handle scenario 5 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #5 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-6",
+    "question": "Hr interview question 6: Explain how you would handle scenario 6 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #6 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-7",
+    "question": "Hr interview question 7: Explain how you would handle scenario 7 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #7 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-8",
+    "question": "Hr interview question 8: Explain how you would handle scenario 8 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #8 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-9",
+    "question": "Hr interview question 9: Explain how you would handle scenario 9 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #9 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-10",
+    "question": "Hr interview question 10: Explain how you would handle scenario 10 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #10 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-11",
+    "question": "Hr interview question 11: Explain how you would handle scenario 11 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #11 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-12",
+    "question": "Hr interview question 12: Explain how you would handle scenario 12 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #12 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-13",
+    "question": "Hr interview question 13: Explain how you would handle scenario 13 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #13 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-14",
+    "question": "Hr interview question 14: Explain how you would handle scenario 14 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #14 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-15",
+    "question": "Hr interview question 15: Explain how you would handle scenario 15 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #15 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-16",
+    "question": "Hr interview question 16: Explain how you would handle scenario 16 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #16 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-17",
+    "question": "Hr interview question 17: Explain how you would handle scenario 17 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #17 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-18",
+    "question": "Hr interview question 18: Explain how you would handle scenario 18 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #18 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-19",
+    "question": "Hr interview question 19: Explain how you would handle scenario 19 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #19 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "hr-20",
+    "question": "Hr interview question 20: Explain how you would handle scenario 20 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "teamwork",
+      "conflict",
+      "leadership",
+      "communication",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core hr fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for hr #20 covers fundamentals, implementation details, and measurable impact."
+  }
 ]
