@@ -1,0 +1,542 @@
+[
+  {
+    "id": "backend-1",
+    "question": "Backend interview question 1: Explain how you would handle scenario 1 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #1 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-2",
+    "question": "Backend interview question 2: Explain how you would handle scenario 2 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #2 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-3",
+    "question": "Backend interview question 3: Explain how you would handle scenario 3 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #3 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-4",
+    "question": "Backend interview question 4: Explain how you would handle scenario 4 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #4 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-5",
+    "question": "Backend interview question 5: Explain how you would handle scenario 5 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #5 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-6",
+    "question": "Backend interview question 6: Explain how you would handle scenario 6 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #6 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-7",
+    "question": "Backend interview question 7: Explain how you would handle scenario 7 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #7 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-8",
+    "question": "Backend interview question 8: Explain how you would handle scenario 8 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #8 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-9",
+    "question": "Backend interview question 9: Explain how you would handle scenario 9 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #9 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-10",
+    "question": "Backend interview question 10: Explain how you would handle scenario 10 in a production setting.",
+    "difficulty": "easy",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #10 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-11",
+    "question": "Backend interview question 11: Explain how you would handle scenario 11 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #11 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-12",
+    "question": "Backend interview question 12: Explain how you would handle scenario 12 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #12 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-13",
+    "question": "Backend interview question 13: Explain how you would handle scenario 13 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #13 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-14",
+    "question": "Backend interview question 14: Explain how you would handle scenario 14 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #14 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-15",
+    "question": "Backend interview question 15: Explain how you would handle scenario 15 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #15 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-16",
+    "question": "Backend interview question 16: Explain how you would handle scenario 16 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #16 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-17",
+    "question": "Backend interview question 17: Explain how you would handle scenario 17 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #17 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-18",
+    "question": "Backend interview question 18: Explain how you would handle scenario 18 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #18 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-19",
+    "question": "Backend interview question 19: Explain how you would handle scenario 19 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #19 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-20",
+    "question": "Backend interview question 20: Explain how you would handle scenario 20 in a production setting.",
+    "difficulty": "medium",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #20 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-21",
+    "question": "Backend interview question 21: Explain how you would handle scenario 21 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #21 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-22",
+    "question": "Backend interview question 22: Explain how you would handle scenario 22 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #22 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-23",
+    "question": "Backend interview question 23: Explain how you would handle scenario 23 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #23 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-24",
+    "question": "Backend interview question 24: Explain how you would handle scenario 24 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #24 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-25",
+    "question": "Backend interview question 25: Explain how you would handle scenario 25 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #25 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-26",
+    "question": "Backend interview question 26: Explain how you would handle scenario 26 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept1"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #26 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-27",
+    "question": "Backend interview question 27: Explain how you would handle scenario 27 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept2"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #27 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-28",
+    "question": "Backend interview question 28: Explain how you would handle scenario 28 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept3"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #28 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-29",
+    "question": "Backend interview question 29: Explain how you would handle scenario 29 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept4"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #29 covers fundamentals, implementation details, and measurable impact."
+  },
+  {
+    "id": "backend-30",
+    "question": "Backend interview question 30: Explain how you would handle scenario 30 in a production setting.",
+    "difficulty": "hard",
+    "keywords": [
+      "api",
+      "database",
+      "scalability",
+      "security",
+      "concept0"
+    ],
+    "expectedConcepts": [
+      "core backend fundamentals",
+      "trade-off discussion",
+      "real-world example"
+    ],
+    "idealAnswerSummary": "A strong answer for backend #30 covers fundamentals, implementation details, and measurable impact."
+  }
+]
