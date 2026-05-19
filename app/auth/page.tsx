@@ -49,7 +49,7 @@ export default function AuthPage() {
           </form>
 
           <Button onClick={guest} variant="ghost" className="mt-3 w-full" disabled={loading}>Continue as Guest</Button>
-          <button type="button" className="mt-4 w-full text-sm text-white/70 hover:text-white" onClick={() => setMode(mode === "signin" ? "signup" : "signin")}>
+          <button className="mt-4 w-full text-sm text-white/70 hover:text-white" onClick={() => setMode(mode === "signin" ? "signup" : "signin")}>
             {mode === "signin" ? "Need an account? Sign up" : "Already have an account? Sign in"}
           </button>
         </Card>
