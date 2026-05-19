@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body {
+  @apply bg-background text-foreground antialiased;
+  background-image: radial-gradient(circle at 20% 10%, rgba(138,92,246,0.25), transparent 30%), radial-gradient(circle at 80% 20%, rgba(45,212,191,0.2), transparent 35%), linear-gradient(120deg, #080a16 0%, #0d1025 50%, #090b18 100%);
+  min-height: 100vh;
+}
+.glass { @apply bg-white/5 border border-white/10 backdrop-blur-xl shadow-[0_0_30px_rgba(139,92,246,0.25)]; }
+.shimmer { background: linear-gradient(110deg, #23253e 8%, #2d2f4e 18%, #23253e 33%); background-size: 200% 100%; animation: shine 1.5s linear infinite; }
+@keyframes shine { to { background-position-x: -200%; } }
