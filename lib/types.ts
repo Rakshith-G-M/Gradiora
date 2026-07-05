@@ -1,20 +1,12 @@
-export type InterviewRole = "frontend" | "backend" | "python" | "aiml" | "hr";
-export type Difficulty = "easy" | "medium" | "hard";
+export type {
+  Difficulty,
+  ExperienceLevel,
+  InterviewRole,
+  UserProfile,
+  RoadmapNode,
+  Question,
+  ScoreBreakdown,
+  ReportData,
+} from "@/lib/agents/types";
 
-export interface Question {
-  id: string;
-  question: string;
-  difficulty: Difficulty;
-  keywords: string[];
-  expectedConcepts: string[];
-  idealAnswerSummary: string;
-}
-
-export interface ScoreBreakdown {
-  technicalAccuracy: number;
-  completeness: number;
-  communication: number;
-  confidence: number;
-  sentiment: number;
-  overall: number;
-}
+export { INTERVIEW_ROLES, ROLE_LABELS } from "@/lib/agents/config";

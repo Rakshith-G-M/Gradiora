@@ -7,14 +7,15 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/dashboard", label: "Role Selection" },
-  { href: "/interview", label: "Interview Chat" },
-  { href: "/report", label: "Final Report" }
+  { href: "/onboarding", label: "Profile" },
+  { href: "/roadmap", label: "Roadmap" },
+  { href: "/interview", label: "Interview" },
+  { href: "/report", label: "Report" },
+  { href: "/dashboard", label: "Dashboard" },
 ];
 
 export function TopNav() {
   const pathname = usePathname();
-
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#070a18]/80 backdrop-blur-xl">
       <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3 sm:px-6">

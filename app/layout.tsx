@@ -4,8 +4,8 @@ import { TopNav } from "@/components/sections/top-nav";
 import { PageTransition } from "@/components/sections/page-transition";
 
 export const metadata: Metadata = {
-  title: "Gradiora AI",
-  description: "AI-powered interview preparation platform"
+  title: "Gradiora AI — From 0 to Interview Ready",
+  description: "Multi-agent AI interview preparation platform. Five specialized agents assess, roadmap, question, evaluate, and report your interview readiness."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
